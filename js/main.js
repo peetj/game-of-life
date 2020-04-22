@@ -55,7 +55,7 @@ const cellStates = {
  */
 function preload() {
     /* Load assets from the assets/images directory to make loading images easier - see below */
-    this.load.setBaseURL('./assets/images/');
+    this.load.setBaseURL('/game-of-life/assets/images/');
 
     this.load.image('grid', 'grid.png');
     this.load.image('cell', 'cell.png');
