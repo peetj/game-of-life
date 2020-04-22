@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phaser Test</title>
+
+    <link href="./css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script src="./js/phaser.min.js"></script>
+    <script src="./js/main.js"></script>
+
+
+
+    <div id="game-canvas">
+        <div id="debug-grid" class="grid"></div>
+    </div>
+    <div id="panel">
+        <h3>Generation: <span id="generation">0</span></h3>
+        <div class="panel-container">
+            <input type="checkbox" id="manual-update" name="manual-update">
+            <label for="manual-update">Pause Updates</label>
+        </div>
+        <div class="panel-container">
+            <button id="start" class="btn-start">Start Game of Life</button>
+        </div>
+        <div class="panel-container">
+            <label for="grid-width">Num Rows:</label>
+            <input type="text" id="grid-width" name="grid-width" value="40">
+        </div>
+        <div class="panel-container">
+            <label for="grid-height">Num Cols:</label>
+            <input type="text" id="grid-height" name="grid-height" value="30">
+        </div>
+    </div>
+</body>
+
+</html>
